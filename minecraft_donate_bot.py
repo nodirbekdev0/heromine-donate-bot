@@ -6,7 +6,7 @@ from telegram.ext import (
     MessageHandler, filters, ContextTypes, ConversationHandler
 )
 
-BOT_TOKEN = os.environ.get("8726943512:AAEwChsz8E8lG9Zb8buVCetyLK485y2aKMo")
+BOT_TOKEN = os.environ.get("8726943512:AAHwoApr2PQ6AX1pASNoHoawFfBXGWZC5_4")
 ADMIN_ID = int(os.environ.get("ADMIN_ID", "8513593166"))
 SERVER_IP = os.environ.get("SERVER_IP", "play.heromine.uz")
 SERVER_PORT = os.environ.get("SERVER_PORT", "25565")
